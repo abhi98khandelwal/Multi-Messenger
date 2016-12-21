@@ -17,11 +17,10 @@ Before compiling and running the code, installation the following modules is nec
 <ol>
 <li> <a href="https://www.twilio.com/docs/libraries/python"> Twilio Client </a> </li>
 <li> <a href="https://pypi.python.org/pypi/fbchat/"> fbchat Module </a> </li>
-</ol>
+<li> <a href="https://pip.pypa.io/en/stable/installing/"> Installing pip </a> is recommended to easily install Twilio Client and fbchat module.  </li>
 </p>
-<p> <li> <a href="https://pip.pypa.io/en/stable/installing/"> Installing pip </a> is recommended to easily install Twilio Client and fbchat module. </p> </li>
+</ol>
 <ol> 
-
 <h2> HOW TO INSTRUCTIONS </h2>
 <p>
 <ol>

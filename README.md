@@ -20,9 +20,9 @@ User has to install fbchat using-pip install fbchat
 
 2.Download the following libraries to run the required functions
 
-  1.Twilio
+    1.Twilio
 
-  2.smtp
+    2.smtp
 
 
 HOW TO RUN-INSTRUCTIONS

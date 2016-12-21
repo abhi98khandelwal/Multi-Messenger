@@ -1,4 +1,3 @@
-from Tkinter import *
 from twilio.rest import TwilioRestClient
 import smtplib
 from email.MIMEMultipart import MIMEMultipart

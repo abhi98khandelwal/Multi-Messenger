@@ -30,6 +30,16 @@ HOW TO RUN-INSTRUCTIONS
 
 3.User has to enter the exact address of the files to be attached if (any).
 
+CONTRIBUTERS....
+
+ It consists of a team of two members(beginners) highly  intested in the field of programming and designing.The team members   includes...
+
+
+
+1.Kushashwa Ravi Shrimali
+
+2.Krutika Bapat
+
 
 
 

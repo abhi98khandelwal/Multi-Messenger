@@ -34,6 +34,8 @@ HOW TO RUN-INSTRUCTIONS
 
 3.User has to enter the exact address of the files to be attached if (any).
 
+4.The twilio account ""SID number" and "Auth token" has to be entered by the user to send the required messages.
+
 CONTRIBUTERS....
 
 

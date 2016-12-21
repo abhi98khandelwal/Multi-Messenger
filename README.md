@@ -15,9 +15,9 @@ We have tried to make it user friendly and easily accessible. </p>
 Before compiling and running the code, installation the following modules is necessary: </p>
 <p>
 <ol>
-<li> <a href="https://www.twilio.com/docs/libraries/python"> Twilio Client </a> </li>
-<li> <a href="https://pypi.python.org/pypi/fbchat/"> fbchat Module </a> </li>
-<li> <a href="https://pip.pypa.io/en/stable/installing/"> Installing pip </a> is recommended to easily install Twilio Client and fbchat module.  </li>
+<li> <a href="https://www.twilio.com/docs/libraries/python"> <b> Twilio Client </b> </a> </li>
+<li> <a href="https://pypi.python.org/pypi/fbchat/"> <b> fbchat Module </b></a> </li>
+<li> <a href="https://pip.pypa.io/en/stable/installing/"> <b> Installing pip </b> </a> is recommended to easily install Twilio Client and fbchat module.  </li>
 </p>
 </ol>
 <ol> 
@@ -29,7 +29,6 @@ Before compiling and running the code, installation the following modules is nec
 <ul> User has to enter the exact address of the files to be attached if (any). </ul>
 <ul> The twilio account ""SID number" and "Auth token" has to be entered by the user to send the required messages. </ul>
 </ol>
-</>
 
 <h2> Contributors </h2>
 

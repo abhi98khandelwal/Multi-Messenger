@@ -49,25 +49,26 @@ exit_input = raw_input("""If you want to exit, type "EXIT", if not, type anythin
 while(exit_input != "EXIT"):
 	# MENU
 	print " EMAIL [1]  |  FACEBOOK MESSAGE [2] |  SMS [3] " 
-
+	
 	number = int(raw_input("Menu Selection: "))
-
+	# EMAILING
 	if(number == 1):
+	  print  "-------------------------------------------------------------------------"
 	  rec_adr = raw_input("Receiver's email ID: ")
-
+	  print  "-------------------------------------------------------------------------"
 	  msg = MIMEMultipart()
-
 	  subj = raw_input("Subject: ")
 	  msg['From'] = your_adr
 	  msg['To'] = rec_adr
 	  msg['Subject'] = subj
-
+	  print  "-------------------------------------------------------------------------"
 	  body = raw_input("Text you want to enter: ")
-
 	  msg.attach(MIMEText(body, 'plain'))
-
-	  strings = raw_input("Enter file address: ")
-	  if(strings != ''):
+	  print  "-------------------------------------------------------------------------"
+	  ask_attach = raw_input("Do you want to attach any files to your mail?(YES/NO): ")
+	  print  "-------------------------------------------------------------------------"
+	  while(ask_attach.upper() != 'NO'):
+		  strings = raw_input("Enter file address: ")
 		  attachment = open(strings, "rb")
 		  part = MIMEBase('application', 'octet-stream')
 		  part.set_payload((attachment).read())
@@ -75,14 +76,26 @@ while(exit_input != "EXIT"):
 		  part.add_header('Content-Disposition', "attachment; filename = %s" % strings)
 			
 		  msg.attach(part)
-
-	  server = smtplib.SMTP('smtp.gmail.com', 587)
-	  server.starttls()
-	  server.login(your_adr, pass_adr)
-	  text = msg.as_string()
-	  server.sendmail(your_adr, rec_adr, text)
-	  server.quit()
+		  # print  "-------------------------------------------------------------------------"
+		  ask_attach = raw_input("Do you want to attach any more files to your mail? (YES/NO): ")
+		  # print  "-------------------------------------------------------------------------"
+	   
+	  print "-------------------------------------------------------------------------"
 	  
+	  print "Sending mail process has begun!"
+	  try:
+	  	server = smtplib.SMTP('smtp.gmail.com', 587)
+	  	server.starttls()
+	  	print "Logging in..."
+	  	server.login(your_adr, pass_adr)
+	  	text = msg.as_string()
+	  	print "Sending mail..."
+	  	server.sendmail(your_adr, rec_adr, text)
+	  	server.quit()
+	  	print "Mail sent successfully."
+	  except:
+		print("Mail sending failed.")
+	
 	# FB CHAT
 	elif(number == 2):
 	  client = fbchat.Client(your_id, pass_fb);
@@ -94,7 +107,7 @@ while(exit_input != "EXIT"):
 	  messagetosend = str(raw_input("Message to send: "))
 	  sent = client.send(friend.uid, messagetosend)
 	  if sent:
-		print("Message sent successfully")
+			print ("Message sent successfully!")
 	  else:
 		print("Not sent")
 		
@@ -111,4 +124,3 @@ while(exit_input != "EXIT"):
 		body = bodyText,
 	  )
 	exit_input = raw_input("""If you want to exit, type "EXIT", if not, type anything else.""")
-

@@ -15,12 +15,11 @@ We have tried to make it user friendly and easily accessible. </p>
 Before compiling and running the code, installation the following modules is necessary: </p>
 <p>
 <ol>
-<li> [Twilio Client](https://www.twilio.com/docs/libraries/python) </li>
-<li> [fbchat module](https://pypi.python.org/pypi/fbchat/) </li>
+<li> <a href="https://www.twilio.com/docs/libraries/python"> Twilio Client </a> </li>
+<li> <a href="https://pypi.python.org/pypi/fbchat/"> fbchat Module </a> </li>
 </ol>
 </p>
-
-<p> Installing [pip](https://pip.pypa.io/en/stable/installing/) is recommended to easily install Twilio Client and fbchat module. </p>
+<p> <li> <a href="https://pip.pypa.io/en/stable/installing/"> Installing pip </a> is recommended to easily install Twilio Client and fbchat module. </p> </li>
 <ol> 
 
 <h2> HOW TO INSTRUCTIONS </h2>

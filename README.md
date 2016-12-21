@@ -21,7 +21,6 @@ Before compiling and running the code, installation the following modules is nec
 
 <h2> HOW-TO INSTRUCTIONS </h2>
 
-<ol>
 <ul> 
 <li> The options required in the Main menu have to be filled exactly and accurately. </li>
 <li> Proper informatin regarding the username and the password has to be entered by the user. </li>

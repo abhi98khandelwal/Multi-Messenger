@@ -10,19 +10,23 @@ We have tried to make it user friendly and easily accessible.XMPP(Xtensible Mess
 API(Application Program Interface) key is not needed to run the project.
 
 
+
 REQUIREMENTS TO RUN THE APPLICATION
+
 
 User has to install fbchat using-pip install fbchat 
 
-Download this project and run in terminal or IDLE like environment.
+1.Download this project and run in terminal or IDLE like environment.
 
-Download the following libraries to run the required functions
+2.Download the following libraries to run the required functions
 
-1.Twilio
+  1.Twilio
 
-2.smtp
+  2.smtp
+
 
 HOW TO RUN-INSTRUCTIONS
+
 
 1.The options required in the Main menu have to be filled exactly and accurately.
 
@@ -31,6 +35,7 @@ HOW TO RUN-INSTRUCTIONS
 3.User has to enter the exact address of the files to be attached if (any).
 
 CONTRIBUTERS....
+
 
  It consists of a team of two members(beginners) highly  intested in the field of programming and designing.The team members   includes...
 

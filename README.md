@@ -1,4 +1,4 @@
-# Messaging-FB-Text-Mail-
+# Multi-Messenger 
 
 A python program which allows you to message your friend on Facebook / Phone, comes with feature of mailing as well. [Multiple Attachments].
 

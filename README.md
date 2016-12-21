@@ -22,11 +22,12 @@ Before compiling and running the code, installation the following modules is nec
 <h2> HOW-TO INSTRUCTIONS </h2>
 
 <ol>
-<ul> The options required in the Main menu have to be filled exactly and accurately. </ul>
-<ul> Proper informatin regarding the username and the password has to be entered by the user. </ul>
-<ul> User has to enter the exact address of the files to be attached if (any). </ul>
-<ul> The twilio account ""SID number" and "Auth token" has to be entered by the user to send the required messages. </ul>
-</ol>
+<ul> 
+<li> The options required in the Main menu have to be filled exactly and accurately. </li>
+<li> Proper informatin regarding the username and the password has to be entered by the user. </li>
+<li> User has to enter the exact address of the files to be attached if (any). </li>
+<li> The twilio account ""SID number" and "Auth token" has to be entered by the user to send the required messages. </li>
+</ul>
 <h2> Contributors </h2>
 
 <p> The project has been proudly contributed by the team of two programmers :  </p>

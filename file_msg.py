@@ -113,7 +113,7 @@ while(exit_input != "EXIT"):
 		if sent:
 			print ("Message sent successfully!")
 		else:
-			print("Not sent")
+			print ("Not sent")
 		
 	# SMS 
 	elif(number == 3):

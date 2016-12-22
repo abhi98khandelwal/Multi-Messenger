@@ -159,7 +159,7 @@ try:
 				sys.exit(1)
 			except:
 				print """Error in sending SMS. Make sure the receiver's number is valid by registering it on your Twilio Profile. 
-				\nThere is also a possibility that your number has not been registered or you have entered wrong details."""x
+				\nThere is also a possibility that your number has not been registered or you have entered wrong details."""
 		else:
 			print 'Please type valid input number, to enter the desired Menu option. Thanks!'
 		exit_input = raw_input("""\nIf you want to exit, type "EXIT", if not, type anything else.""")

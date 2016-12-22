@@ -5,8 +5,8 @@ A python program which allows you to message your friend on Facebook / Phone, co
 <html>
 <body>
 <h2> Getting Started </h2>
-
-<p> A python based messaging application which can be implemented and used to message,attach files and send it to any of your friend directly through terminal.A SMS can also be sent easily using this program, with some limitations depending on your Twilio's Account status. 
+<a href='https://github.com/krshrimali/Multi-Messenger/wiki/About-the-Project' target='_blank'><img src='https://s29.postimg.org/pib7bork7/First.png' border='0' alt='First'/><br /><a target='_blank' href='https://github.com/krshrimali/Multi-Messenger/wiki/'>Demo of Multi-Messenger</a><br /><br />
+<p> A python based messaging application which can be implemented and used to message,attach files and send it to any of your friend directly through terminal. A SMS can also be sent easily using this program, with some limitations depending on your Twilio's Account status. 
 
 We have tried to make it user friendly and easily accessible. </p>
 
